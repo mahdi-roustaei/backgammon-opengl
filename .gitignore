@@ -1,0 +1,26 @@
+# Compiled programs and object files
+cg1
+test_mat4
+test_obj_loader
+test_ppm_loader
+*.exe
+*.o
+*.out
+*.app/
+build/
+bin/
+Debug/
+Release/
+
+# Keep Wavefront *.obj files: these are required geometry assets.
+
+# Editor, operating-system, and local files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+.env
+.env.*
+!.env.example
